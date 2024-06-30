@@ -1,0 +1,8 @@
+ .TodoSearch{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    }

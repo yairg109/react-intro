@@ -1,7 +1,7 @@
-
+import './CreateTodoButton.css'
 function CreateTodoButton() {
   return (
-   <button type="submit"> CREAR TAREA </button>
+   <button className="CreateTodoButton"> + </button>
   )
 }
 

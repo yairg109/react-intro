@@ -10,11 +10,12 @@
 
 //ESTA ES OTRA FORMA DE MANDAR LAS PROPS
 
+//Insertamos los estilos de la hoja de estilos
+import './TodoCounter.css';
 function TodoCounter({total,completed}) {
     return (
-      <h1 style={{
-        
-      }}>
+      // Se agregan doble llaves para los estilos
+      <h1>
           Has completado {completed} de {total}
       </h1>
   
